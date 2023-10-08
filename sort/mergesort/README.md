@@ -22,7 +22,7 @@ Merging is the process of taking two smaller sorted lists and combining them tog
 
 ## Interface
 
-- The function sort(self, array) sorts the array passed in the argument and returns True if was able to sort and False otherwise. The array passed in should be updated to its sorted counterpart. You must use merge sort sort for this function.
+- The function sort(self, array) sorts the array passed in the argument and returns True if was able to sort and False otherwise. The array passed in should be updated to its sorted counterpart. You must use merge sort sort for this function. If you sort with a different method all points will be lost.
 - The function get_space_complexity(), returns the space complexity of the sorting algorithm.
 - The function get_time_complexity(), returns the time complexity of the sorting algorithm.
 
@@ -33,8 +33,10 @@ Merging is the process of taking two smaller sorted lists and combining them tog
 
 ## Corner Cases
 
-- Sorting an array consisting of same values in different indices. 
-- If different types are in an array (i.e. 1 and 'A') then you must return False
+- Sorting arrays with duplicate values
+- Sorting arrays with letters, strings, integers, natural numbers, floats
+- Sorting an array consisting of same values in different indices.
+- If different types are in the same array (i.e. 1 and 'A') then you must return False
 
 ## Library
 
