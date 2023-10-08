@@ -2,7 +2,7 @@
 
 ## Assignment Description
 
-In this assignment you will create 2 sort classes. You will implement the following algorithms: insertion sort, quick sort, and merge sort. Please follow the guidelines located in each README.md.
+In this assignment you will create 3 sort classes. You will implement the following algorithms: insertion sort, quick sort, and merge sort. Please follow the guidelines located in each README.md.
 
 ## Goal
 
